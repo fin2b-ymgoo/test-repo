@@ -1,12 +1,21 @@
 # [프로젝트명]
+> 간략한 프로젝트 소개 문구를 작성합니다.
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+## Built With
 
-## Requirements
+[![React][React.js]][React-url]
 
-For development, you will only need Node.js installed on your environement.
-We are using `nvm` that allows you to quickly install and use different versions of node via the command line.
+
+## 목차 
+// 확정되면 작성 
+
+
+
+## Prerequisites
+
+1. Node.js
+    - 노드 버전 관리를 위해 [nvm](https://github.com/nvm-sh/nvm)(Node Version Manager)을 사용
 
 **Example:**
 ```sh
@@ -18,28 +27,20 @@ Found '[YOUR_PATH]/cfs.front/.nvmrc' with version [version]
 Now using node [version] (npm [npm-version])
 ```
 
----
-
-## Install
-
-    $ git clone [깃헙 주소]
+2. Install
     $ npm install
 
-## Start & watch
+    
 
+## Start & watch
     $ npm start
 
 ## Build for production
-
     $ npm run build
 
-## 도메인 정보 - [CFS 도메인 정보](https://fin2b-wiki.atlassian.net/wiki/spaces/FIN2BDEV/pages/2419425950#%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%A0%95%EB%B3%B4)
+## 도메인 정보
+[CFS 도메인 정보](https://fin2b-wiki.atlassian.net/wiki/spaces/FIN2BDEV/pages/2419425950#%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%A0%95%EB%B3%B4)
 
-
-## Issue Tranking - [DFS Jira Board](https://fin2b-wiki.atlassian.net/jira/software/projects/DFS/boards/35)
-
-
----
 
 ## Guidelines 
 
@@ -52,6 +53,17 @@ Now using node [version] (npm [npm-version])
 8. 다국어 적용
     - [다국어 반영](https://fin2b-wiki.atlassian.net/wiki/spaces/D/pages/2875883532)
     - [다국어 스프린트 관리](https://fin2b-wiki.atlassian.net/wiki/spaces/D/pages/2875883532)
-9. 
+
+
+## Issue Tracking
+- [DFS Jira Task Board](https://fin2b-wiki.atlassian.net/jira/software/projects/DFS/boards/35)
+- [Open issues](https://github.com/fin2b/cfs.front/issues) 
+
 ---
 
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
